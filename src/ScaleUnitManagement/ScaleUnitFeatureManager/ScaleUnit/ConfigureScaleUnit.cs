@@ -40,7 +40,7 @@ namespace ScaleUnitManagement.ScaleUnitFeatureManager.ScaleUnit
 
             using (var webConfig = new WebConfig())
             {
-                SharedWebConfig.Configure(webConfig);
+                //SharedWebConfig.Configure(webConfig);
 
                 if (scaleUnit.EnvironmentType == EnvironmentType.VHD || Config.UseSingleOneBox())
                 {
